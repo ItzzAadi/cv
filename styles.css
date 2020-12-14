@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffac41;
+}
+
+p{
+    margin: 0;
+}
+/* IN h1, 100% is equal to 16px
+   Also, 1em is also equal to 16px
+   Hence, 100% is equal to 1em */
+h1{
+    color: #ff1e56;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #ffac41;
+}
+
+h3{
+    color: #ffac41;
+    font-weight: lighter;
+}
+
+div{
+    background-color: #000000;
+    position: relative;
+    padding-top: 100px;
+}
+
+.cloud{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 300px;
+    top: 0px;
+}
+
+.mountain{
+    width: 350px;
+    height: 350px;
+}
+
+.bottomcloud{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+}
+
+.middle-container{
+    margin: 0 auto 0 auto;
+}
+
+.bottom-container{
+    margin: 0 auto 0 auto
+}
+
+.skills-row{
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.skills-heading{ 
+    height: 25%;        
+    width: 25%;
+    float: left;
+}
+
+.photo{
+    width: 12%;
+}
+
+.mail{
+    margin: 0 auto 0 auto;
+    width: 12%;
+}
